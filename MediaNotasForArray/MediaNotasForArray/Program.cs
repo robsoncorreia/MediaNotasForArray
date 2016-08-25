@@ -19,7 +19,7 @@ namespace MediaNotasForArray
                 notas[i] = float.Parse(Console.ReadLine());
                 media += notas[i];
             }
-            Console.WriteLine("A média é {0:F2}",media / notas.Length);
+            Console.WriteLine("A média é {0:F2}", media / notas.Length);
             Console.ReadKey();
         }
     }
